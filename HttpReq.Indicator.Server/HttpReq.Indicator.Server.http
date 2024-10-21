@@ -1,0 +1,6 @@
+@HttpReq.Indicator.Server_HostAddress = http://localhost:5112
+
+GET {{HttpReq.Indicator.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
